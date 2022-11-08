@@ -1,0 +1,476 @@
+* {
+
+    margin: 0px auto;
+    box-sizing: border-box;
+
+}
+.th1{
+    width: 120px;
+    position: relative;
+    right: 40px;
+}
+.th1:hover{
+    color: gray;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+}
+
+#h2 {
+    padding: 40px 150px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+
+}
+
+#main_header {
+
+ padding-top: 150px;
+ text-align: center;
+ font-size: 50px;
+ text-shadow: 4px 4px black;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.button {
+
+    padding-left: 609px;
+
+}
+
+#button1 {
+
+    border-color: rgb(248, 244, 244);
+    background-color: rgb(67, 214, 57);
+    padding: 15px;
+    border-radius: 15px;
+    transform: translateY(-12px);
+    transition: transform .2s;
+    
+}
+ #button1:hover{
+
+    transform: scale(1.1);
+    color: white;
+    background-color: rgb(17, 12, 17);
+ }
+
+#button2 {
+    border-color: rgb(249, 251, 251);
+    background-color: rgb(50, 187, 228);
+    padding: 15px;
+    border-radius: 15px;
+    transform: translateY(-12px) ;
+    transition: transform .2s;
+}
+#button2:hover{
+
+    transform: scale(1.1);
+    color: white;
+    background-color: rgb(17, 12, 17);
+ }
+#t1 {
+
+    text-align: left;
+    padding: 0px 360px;
+
+}
+
+.navbar {
+
+    width: 100%; height: 60px;
+    background-color: rgb(9, 9, 9);
+    padding-left: 0px;
+}
+
+.content {
+    width: 100%;
+    color: white;
+    height: 700px;
+    background-color: rgb(240, 241, 240); 
+    background-size: cover;
+}
+
+.poster_1 {
+
+    width: 100%;
+    height: 400px;
+    display: flex;
+   background-color: white;
+
+}
+
+.card_1 {
+
+    width: 90%;
+    height: 200px;
+    display: flex;
+}
+
+#card1 {
+    display: block;
+    width: 30%;
+    height: 400px;
+    background-size: cover;
+    padding: 30px;
+}
+
+#card1:hover{
+    background: rgb(170, 219, 244);
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 10px 10px  rgb(164, 162, 157);
+    outline-offset: 4px;   
+
+}
+
+#card2 {
+    display: block;
+    width: 30%;
+    height: 400px;
+    background-size: cover;
+    padding: 30px;
+}
+#card2:hover{
+
+    border: 1px solid;
+    padding: 10px;
+    background: rgb(235, 116, 156);
+    box-shadow: 10px 10px  rgb(164, 162, 157);
+
+
+}
+
+#card3 {
+    display: block;
+    width: 30%;
+    height: 400px;
+    background-size: cover;
+    padding: 30px;
+}
+#card3:hover{
+
+    border: 1px solid;
+    padding: 10px;
+    background: rgb(156, 237, 147);
+    box-shadow: 10px 10px  rgb(164, 162, 157);
+}
+
+.card_2 {
+    width: 90%;
+    height: 100px;
+    display: flex;
+}
+
+#c1 {
+    width: 30%;
+    height: 150px;
+    background-color: white;
+    text-align: justify;
+    padding: 10px 10px;
+    border-radius: 12px;
+}
+#c1:hover{
+    border: 1px solid;
+    padding: 10px;
+    background: rgb(241, 230, 166);
+    box-shadow: 10px 10px  rgb(161, 145, 145);
+}
+#c2 {
+
+ width: 30%;
+ height: 150px;
+ background-color: white;
+ text-align: justify;
+ padding: 10px 10px;
+ border-radius: 12px;
+}
+
+#c2:hover{
+    border: 1px solid;
+    padding: 10px;
+    background: rgb(244, 170, 155);
+    box-shadow: 10px 10px  rgb(161, 145, 145);
+}
+
+#c3 {
+    width: 30%;
+    height: 150px;
+    background-color: white;
+    text-align: justify;
+    padding: 10px 10px;
+    border-radius: 12px;
+}
+
+#c3:hover{
+
+    border: 1px solid;
+    padding: 10px;
+    background: rgb(254, 173, 252);
+    box-shadow: 10px 10px  rgb(161, 145, 145);
+
+}
+
+ul li {
+
+    display: inline;
+}
+
+
+#tbl1 {
+    text-align: left;
+    border-spacing: 10px;
+}
+
+.poster_2 {
+
+    width: 100%;
+    height: 250px;
+    background-color: white;
+
+}
+
+.footer {
+    width: 100%;
+    text-align: left;
+    padding: 0px 10px;
+    height: 300px;
+    display: flex;
+}
+.footer li:hover{
+
+    color: rgb(146, 42, 7);
+}
+.list1 {
+    width: 15%; 
+    background: rgb(14, 14, 14);
+    color: white;
+
+}
+
+.list2 {
+    width: 15%;
+    background: rgb(14, 14, 14);
+    color: white;
+}
+
+.list3 {
+    width: 15%;
+    background: rgb(14, 14, 14);
+    color: white;
+}
+
+.list4 {
+    width: 15%;
+   
+    background: rgb(14, 14, 14);
+    color: white;
+}
+
+.list5 {
+    width: 40%;
+    padding: 55px 0px 0px 200px;
+    background: rgb(14, 14, 14);
+    color: white;
+    box-sizing: border-box;
+}
+
+.names{
+    height: 100px;
+}
+
+.font:hover{
+    color: red;
+}
+@media screen and (max-width:1020px) {
+    .header {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .navbar {
+
+        width: 100%; height: 60px;
+        background-color: rgb(9, 9, 9);
+        padding-left: 0px;
+    }
+    .poster_1 {
+
+        width: 100%;
+        height: 400px;
+        display: flex;
+       background-color: white;
+    
+    }
+    .poster_2 {
+
+        width: 100%;
+        height: 250px;
+        background-color: white;
+    
+    }
+    .names{
+        height: 100px;
+    }
+    
+    .footer {
+        width: 100%;
+        text-align: left;
+        padding: 0px 10px;
+        height: 300px;
+        display: flex;
+    }
+}
+
+/* screen size 790 */
+
+@media screen and (max-width:790px) {
+    .header {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        left: -90px;
+        
+    }
+    .navbar {
+
+        width: 100%; height: 60px;
+        padding-left:0px;
+
+
+    }
+    .th1{
+        width: 100px;
+        position: relative;
+        right: 0px;
+        margin-left: 80%;
+        table-layout: auto;
+        
+    }
+    .button {
+
+        padding-left: 0px;
+        width: 40%;
+        /* display: inline-block; */
+        flex-wrap: wrap;
+        display: flex;
+        position: relative;
+        /* left: -80px; */
+
+    
+    }
+    #button1 {
+
+        padding: 5px;
+        border-radius: 15px;
+
+
+    }
+    .poster_1 {
+
+        width: 100%;
+        height: 400px;
+        display: flex;
+       background-color: white;
+    
+    }
+    .poster_2 {
+
+        width: 100%;
+        height: 300px;
+        background-color: white;
+    
+    }
+    .names{
+        height: 100px;
+    }
+    
+    .footer {
+        width: 100%;
+        text-align: left;
+        padding: 0px 0px;
+        height: 400px;
+        display: flex;
+    }
+}
+
+/* 510 screen size */
+@media screen and (max-width:510px) {
+    .header {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        /* left: -90px; */
+        
+    }
+    .navbar {
+
+        width: 100%; height: 60px;
+        padding-left:0px;
+        font-size: smaller;
+
+
+    }
+    .th1{
+        /* width: 100px; */
+        position: relative;
+        /* right: 0px; */
+        margin-left: 80%;
+        table-layout: auto;
+    
+        
+    }
+    .button {
+
+        padding-left: 0px;
+        width: 40%;
+        /* display: inline-block; */
+        flex-wrap: wrap;
+        display: flex;
+        position: relative;
+        /* left: -80px; */
+
+    
+    }
+    #button1 {
+
+        padding: 5px;
+        border-radius: 15px;
+
+
+    }
+    .poster_1 {
+
+        width: 100%;
+        height: 400px;
+        display: flex;
+       background-color: white;
+    
+    }
+    .poster_2 {
+
+        width: 100%;
+        height: 300px;
+        background-color: white;
+    
+    }
+    .names{
+        height: 100px;
+    }
+    
+    .footer {
+        width: 100%;
+        text-align: left;
+        padding: 0px 0px;
+        height: 400px;
+        display: flex;
+    }
+}

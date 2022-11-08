@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignments</title>
+</head>
+
+
+<body>
+    <h5>Assignment 1</h5>
+    <hr>
+
+    <!-- Assignment 1 -->
+
+    <!-- 1- Wap to input 2 values in 2 variables and swap them -->
+    <h5> with the help of 3rd variable</h5>
+    <script>
+        var a = parseInt(prompt("Enter Value Of a"));
+        var b = parseInt(prompt("Enter Value Of b"));
+
+        document.write("Value of a before swap= ", a + '<br> <br>')
+        document.write("Value of b before swap = ", b + '<br> <br>')
+
+        var temp;
+        temp = a;
+        a = b;
+        b = temp;
+
+        document.write("Value of a after swap= ", a + '<br> <br>')
+        document.write("Value of b after swap = ", b + '<br> <br>')
+    </script>
+    <hr>
+
+
+
+
+    <h5>without help of 3rd variable </h5>
+    <script>
+        var a = parseInt(prompt("Enter Value Of a"));
+        var b = parseInt(prompt("Enter Value Of b"));
+
+        document.write("Value of a before swap= ", a + '<br> <br>')
+        document.write("Value of b before swap = ", b + '<br> <br>')
+
+        a = a + b;
+        b = a - b;
+        a = a - b;
+
+        document.write("Value of a after swap= ", a + '<br> <br>')
+        document.write("Value of b after swap = ", b + '<br> <br>')
+    </script>
+    <hr>
+
+
+
+
+    <h5>in one line or expression </h5>
+    <script>
+        var a = parseInt(prompt("Enter Value Of a"));
+        var b = parseInt(prompt("Enter Value Of b"));
+
+        document.write("Value of a before swap= ", a + '<br> <br>');
+        document.write("Value of b before swap = ", b + '<br> <br>');
+
+        [a, b] = [b, a];
+
+        document.write("Value of a after swap= ", a + '<br> <br>');
+        document.write("Value of b after swap = ", b + '<br> <br>');
+    </script>
+
+
+
+
+    <br><br><br><br>
+    <hr>
+    <h5>Assignment 2</h5>
+
+    <!-- Assignment 2 -->
+    <!-- 2. Wap to input a number and find its factorial and also disply the table of the input number ? 
+ hint 
+  5*1=5
+  5*2=10 
+  ---
+  5*10=50 -->
+    <h5>Factorial and Table</h5>
+
+    <script>
+        var num = parseInt(prompt("Enter a Number:"))
+        if (num < 0) {
+            document.write("Enter a Positive Number")
+        }
+        else {
+            if (num == 0) {
+                document.write("The factorial number is : " + num + "1")
+            }
+            else {
+                let fact = 1;
+                for (i = 1; i <= num; i++) {
+                    fact *= i;
+                    document.write("<br>" + num + "*" + i + "=" + fact)
+                }
+            }
+
+        }
+    </script>
+
+
+
+    <br><br><br><br>
+    <hr>
+    <h5>Assignment 3</h5>
+    <!-- 3. Wap to display febonice series upto 10? -->
+    <h5> Febonice Series</h5>
+
+    <script>
+
+        var n1=0;
+        var n2=1;
+       var n= window.prompt("enter the number");
+       document.write(" "+ n1 ,"<br>");
+       document.write(" "+ n2 ,"<br>");
+       for(i=0;i<(n-2);i++)
+       {
+            var n3=n1+n2;
+            document.write(" " + n3,"<br>");
+            n1=n2;
+            n2=n3;
+
+       }
+
+    </script>
+
+
+<br><br><br><br>
+<hr>
+
+
+
+
+<h5>Assignment 4</h5>
+
+    <!-- 4. Wap to input a number , reverse it and also find the sum of the digit of a number ?  
+                 num=1234;
+                 rev=4321;
+                 sum=10; -->
+
+    <script>
+
+        var n = window.prompt("Enter the number you want to reverse:");
+        var rmd = 0;
+        var sum = 0;
+        var rev = 0;
+        document.write("Number is:" + n);
+        while (parseInt(n) != 0) {
+            rmd = n % 10;
+            sum = sum + rmd;
+            rev = (rev * 10) + rmd;
+            n = parseInt(n / 10);
+        }
+        document.write("<br/>Reversed number is: " + rev + "<br/>");
+        document.write("sum of number is: " + sum);
+
+    </script>
+
+
+
+<br><br><br><br>
+    <hr> 
+    <h5>Assignment 5</h5>
+
+    <!-- 5.Wap to assign 10 values in an array and also assign a single value in a varaible and find this single value is present in array or not ? -->
+    <script>
+        var arr = [12, 32, 45, 67, 34, 55, 77, 88, 33, 99];
+        var key = window.prompt("Enter the key value:");
+        for (i = 0; i < 10; i++) {
+            if (arr[i] == key) {
+                document.write("Element Found in the array at " + i + "<sup>th</sup>" + " Position.");
+                break;
+            }
+            else {
+                continue;
+
+            }
+        }
+
+    </script>
+
+
+
+
+<br><br><br><br>
+<hr>
+
+<h5>Assignment 6</h5>
+
+    <!-- 6.Wap to create a function for a start pattern 
+eg:
+   function 5
+          *
+        *   *
+      *   *    *
+    *   *   *    *
+  *    *   *    *    * -->
+    <script>
+
+        var number = window.prompt("Enter the number:")
+        var temp = number;
+        for (i = 0; i < number; i++) {
+            for (k = 1; k < temp; k++) {
+
+                document.write(" &nbsp ");
+            }
+
+            for (j = 0; j < (i + 1); j++) {
+
+                document.write(" * " + " &nbsp ");
+            }
+
+            --temp;
+            document.write("<br/>");
+        }
+
+    </script>
+
+</body>
+
+</html>
